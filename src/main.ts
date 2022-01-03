@@ -1,5 +1,5 @@
 function main() {
-    // your code goes here
+  // your code goes here
 }
 
 main();
