@@ -6,9 +6,9 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "npm run build && node build/main.js",
+    "start": "npm run build && node dist/main.js",
     "start:dev": "nodemon",
-    "build": "rimraf ./build && tsc"
+    "build": "rimraf dist && tsc"
   },
   "devDependencies": {
     "@types/node": "^16.11.10",
