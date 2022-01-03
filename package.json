@@ -8,10 +8,14 @@
   "scripts": {
     "start": "npm run build && node dist/main.js",
     "start:dev": "nodemon",
-    "build": "rimraf dist && tsc"
+    "build": "rimraf dist && tsc",
+    "lint": "eslint . --ext .ts"
   },
   "devDependencies": {
     "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
     "nodemon": "^2.0.15",
     "rimraf": "^3.0.2",
     "ts-node": "^10.4.0",
