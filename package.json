@@ -6,7 +6,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "npm run build && node dist/main.js",
+    "start": "node dist/main.js",
     "start:dev": "nodemon",
     "build": "rimraf dist && tsc",
     "lint": "eslint . --ext .ts"
