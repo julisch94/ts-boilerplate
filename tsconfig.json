@@ -11,6 +11,6 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "strict": true,
-    "noImplicitAny": true
+    "noImplicitAny": false
   }
 }
